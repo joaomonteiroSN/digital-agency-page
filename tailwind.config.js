@@ -6,7 +6,7 @@ module.exports = {
       'main': ['Inter', 'sans-serif']
     },
     screens: {
-      'desktop': '1440px'
+      'desktop': '900px'
     },
     extend: {
       colors: {
