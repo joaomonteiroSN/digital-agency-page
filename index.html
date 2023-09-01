@@ -14,7 +14,15 @@
     <div class="flex flex-col max-w-[428px] px-[24px] text-main-font desktop:max-w-[1280px]">
         <header class="flex justify-between my-[48px]">
             <span class="text-[14px] font-bold">Digital Agency</span>
-            <img src="./assets/menu.svg" alt="side bar menu image">
+            <nav class="hidden desktop:block">
+                <ul class="flex gap-[44px]">
+                    <li class="hover:font-bold">home</li>
+                    <li class="hover:font-bold">about</li>
+                    <li class="hover:font-bold">testimonial</li>
+                    <li class="hover:font-bold">contact</li>
+                </ul>
+            </nav>
+            <img class="desktop:hidden" src="./assets/menu.svg" alt="side bar menu image">
         </header>
         <main class="mt-[48px]">
             <div class="flex flex-col desktop:flex-row desktop:max-w-[1065px] desktop:gap-[75px] desktop:items-center">
